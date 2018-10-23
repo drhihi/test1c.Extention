@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39e2b8a4-96f9-4c2d-b1ad-a8abcca129e9">
+  <producedTypes>
+    <selectionType typeId="1625c941-37ae-4e59-b596-ac3e77d1ed3c" valueTypeId="79ef677b-f507-4e08-83c1-07c95aecda00"/>
+    <listType typeId="546e3617-19a1-47eb-b6de-4a2e1e7d3203" valueTypeId="820d4958-71c2-4cac-af9c-1e7c9317a4e9"/>
+    <managerType typeId="1a84f9f1-dc68-40ea-be19-330bbf82d514" valueTypeId="43d9c369-b06f-4e8c-9b9a-4adc15ca376e"/>
+    <recordSetType typeId="065fd593-0adb-4b86-9774-cf54be7ec446" valueTypeId="3b6e2b4d-4d66-47b9-9b35-1aa89e3077b9"/>
+    <recordKeyType typeId="e506432d-8a69-4035-8535-218b53de0694" valueTypeId="f44fea87-fd40-4250-a7ec-2d8bcba0b0af"/>
+    <recordType typeId="4891e0f1-4a83-4537-bc42-133d1a3c002d" valueTypeId="3dd5ff52-b6c6-4bac-996e-39af33329745"/>
+    <recordManagerType typeId="2b6838ef-36b1-4962-bf46-4fc900d26c64" valueTypeId="b9b9c120-a441-4af0-a236-78171f537f08"/>
+  </producedTypes>
+  <name>НезависимыйРегистр</name>
+  <comment></comment>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:InformationRegister>
